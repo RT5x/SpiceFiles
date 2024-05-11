@@ -1,0 +1,5 @@
+Circuit: * C:\Users\Adam Ghatta\SpiceFiles\Draft2.asc
+
+Limiting rise time of source v1 to 5e-05
+Limiting fall time of source v1 to 5e-05
+Fatal Error: a1: Missing value of cycles
