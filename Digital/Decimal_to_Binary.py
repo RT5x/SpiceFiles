@@ -26,7 +26,9 @@ while i <= n-1:
 
 
 arr_bin.reverse()
-print(arr_bin)
+
+result1 = int(''.join(map(str,arr_bin)))
+
 arr_dec=[]
 j = 0
 while j <= n+2:
@@ -41,6 +43,7 @@ while j <= n+2:
     else:
         j+=1
 
-print(arr_dec)
 
+result2 = int(''.join(map(str,arr_dec)))
 print("Binary Equivalent: ")
+print(str(result1)+"."+str(result2))
