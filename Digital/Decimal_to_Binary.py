@@ -10,7 +10,7 @@ i = 0
 arr_bin = []
 d1_int_op=d1_int
 
-while i <= n-1:
+while d1_int_op >= 1:
     if d1_int_op % 2 != 0:
         
         d1_int_op = d1_int_op/2
