@@ -20,9 +20,9 @@ d1_int_op = int(sum)
 
 
 n = int(log10(d1_int_op)/log10(2))
-j = 0
+
 arr_bin = []
-#print(n)
+
 
 while d1_int_op >= 1:
     if d1_int_op % 2 == 1:

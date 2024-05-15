@@ -48,4 +48,3 @@ print(str(b1) + " + " + str(b2) + " = ")
 
 
 print(result1)
-#print(sum)
