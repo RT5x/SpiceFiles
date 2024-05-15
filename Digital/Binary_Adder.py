@@ -15,27 +15,30 @@ for i in range(n2):
     sum2 += b2_list[i]*2**(n2-i-1)
 
 sum = sum1+sum2
+
 d1_int_op = int(sum)
 
 
 n = int(log10(d1_int_op)/log10(2))
 j = 0
 arr_bin = []
-
+#print(n)
 
 while d1_int_op >= 1:
-    if d1_int_op % 2 != 0:
+    if d1_int_op % 2 == 1:
         
-        d1_int_op = d1_int_op/2
+        d1_int_op = (d1_int_op-1)/2
         arr_bin.append(1)
-        j+=1
+        
+
     elif d1_int_op % 2 == 0:
         d1_int_op = d1_int_op/2
         arr_bin.append(0)
-        j+=1
+        
+
 
     else:
-        j+=1
+        continue
 
 
 arr_bin.reverse()
@@ -45,3 +48,4 @@ print(str(b1) + " + " + str(b2) + " = ")
 
 
 print(result1)
+#print(sum)
