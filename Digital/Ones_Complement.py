@@ -1,7 +1,7 @@
 
 # Ones complement
 
-bin = (input("Input binary number: "))
+bin = (input("Input binary number: \n"))
 x=list(map(int,str(bin)))
 i = 0
 while i <= len(x)-1:
@@ -13,8 +13,8 @@ while i <= len(x)-1:
         i+=1
 
 s = ''.join(map(str, x))
-
-print("Ones complement: \n")
+print("  ")
+print("Ones complement: ")
 
 print(s)
 
@@ -25,7 +25,7 @@ for i in range(len(x)):
 sum = sum + 1
 
 d1_int = int(sum)
-
+print(" ")
 
 arr_bin = []
 
@@ -46,5 +46,5 @@ arr_bin.reverse()
 result_twos = int(''.join(map(str,arr_bin)))
 
 
-print("Twos Complement: \n")
+print("Twos Complement: ")
 print(result_twos)
