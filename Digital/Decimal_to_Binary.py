@@ -13,16 +13,14 @@ d1_int_op=d1_int
 while d1_int_op >= 1:
     if d1_int_op % 2 != 0:
         
-        d1_int_op = d1_int_op/2
+        d1_int_op = (d1_int_op-1)/2
         arr_bin.append(1)
-        i+=1
-    elif d1_int_op % 2 == 0:
+    
+    else:
         d1_int_op = d1_int_op/2
         arr_bin.append(0)
-        i+=1
+       
 
-    else:
-        i+=1
 
 
 arr_bin.reverse()
